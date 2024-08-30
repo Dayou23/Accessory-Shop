@@ -1,0 +1,124 @@
+export const Collection = [
+  {
+    image:
+      "https://images.pexels.com/photos/1413420/pexels-photo-1413420.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Le Grá Collection",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/949590/pexels-photo-949590.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Le Grá Collection",
+  },
+];
+export const NewIn = [
+  {
+    id: 1,
+    image:
+      "https://images.pexels.com/photos/965117/pexels-photo-965117.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Sundaze Collection",
+  },
+  {
+    id: 2,
+    image:
+      "https://images.pexels.com/photos/753969/pexels-photo-753969.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Le Grá Collection",
+  },
+  {
+    id: 3,
+    image:
+      "https://images.pexels.com/photos/1212048/pexels-photo-1212048.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Sunglasses",
+  },
+  {
+    id: 4,
+    image:
+      "https://images.pexels.com/photos/989967/pexels-photo-989967.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Greeting Cards",
+  },
+];
+export const Bags = [
+  {
+    image:
+      "https://images.pexels.com/photos/1204459/pexels-photo-1204459.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "All Bags",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/904350/pexels-photo-904350.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Clutch Bags",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/1591154/pexels-photo-1591154.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "The Margot",
+  },
+];
+export const Products = [
+  {
+    image:
+      "https://images.pexels.com/photos/1395306/pexels-photo-1395306.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Product 1",
+    Reviews: "2 Reviews",
+    price: "$29.99",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/1676126/pexels-photo-1676126.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Product 2",
+    price: "$99.99",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/1591154/pexels-photo-1591154.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "product 3",
+    Reviews: "1 Reviews",
+    price: "$49.99",
+  },
+  // {
+  //   image:
+  //     "https://images.pexels.com/photos/1591154/pexels-photo-1591154.jpeg?auto=compress&cs=tinysrgb&w=800",
+  //   title: "product 4",
+  // },
+  // {
+  //   image:
+  //     "https://images.pexels.com/photos/1591154/pexels-photo-1591154.jpeg?auto=compress&cs=tinysrgb&w=800",
+  //   title: "product 5",
+  // },
+  {
+    image:
+      "https://images.pexels.com/photos/1299135/pexels-photo-1299135.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "product 6",
+    price: "$89.99",
+  },
+];
+
+export const OurCollection = [
+  {
+    image:
+      "https://images.pexels.com/photos/27855448/pexels-photo-27855448/free-photo-of-jewelry-set-women-accessories-pink-and-green.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "The Le Gra Collection",
+    style: "col-span-2",
+    link: "#",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/27855447/pexels-photo-27855447/free-photo-of-jewelry-set-women-accessories-yellow.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "New In",
+    style: "col-span-1",
+    link: "#",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/27855449/pexels-photo-27855449/free-photo-of-jewelry-set-women-accessories-green.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Necklaces",
+    style: "col-span-1",
+    link: "#",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/1377179/pexels-photo-1377179.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Earrings",
+    style: "col-span-2",
+    link: "#",
+  },
+];
