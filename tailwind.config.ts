@@ -13,7 +13,9 @@ const config: Config = {
         foreground: "var(--foreground)",
         primary: "#AE7E58",
         secondary: "#976348",
+        tertiary: "#E6C5AB",
       },
+
       fontFamily: {
         sans: ["var(--font-geist-sans)"],
         mono: ["var(--font-geist-mono)"],

@@ -1,30 +1,30 @@
 export const headerLinks = [
   {
     label: "About us",
-    route: "/aboutus",
+    route: "#",
   },
   {
     label: "Contact us",
-    route: "/contact us",
+    route: "#",
   },
   {
     label: "Blog",
-    route: "/blog",
+    route: "#",
   },
   {
     label: "Refund Policy",
-    route: "/refundpolicy",
+    route: "#",
   },
   {
     label: "Delivery Times",
-    route: "/deliverytimes",
+    route: "#",
   },
   {
     label: "Terms of Service",
-    route: "/termsofService",
+    route: "#",
   },
   {
     label: "Privacy Policy",
-    route: "/privacypolicy",
+    route: "#",
   },
 ];

@@ -1,13 +1,14 @@
-import { Products } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
 
 const ProductList = async ({
   limit,
   searchParams,
+  Products,
 }: {
   limit?: number;
   searchParams?: any;
+  Products: any;
 }) => {
   const Stars = () => {
     let arr = [];
@@ -18,19 +19,14 @@ const ProductList = async ({
     return arr;
   };
 
-  // const showBag = (index: number) => {
-  //   return index;
-  // };
-  // console.log(showBag);
   return (
-    <div className="px-4 overflow-x-scroll scrollbar-hide">
+    <div className="px-4 mt-4 md:mt-8 py-4 overflow-x-scroll scrollbar-hide">
       <div className="flex gap-4 md:gap-8 ">
-        {Products.map((product, index) => (
+        {Products.map((product: any) => (
           <Link
-            href={"/"}
+            href={"/productSlug"}
             className="flex-shrink-0 w-[95%] sm:w-[45%] xl:w-[22%]"
             key={product.image}
-            // onMouseEnter={() => showBag(index)}
           >
             <div className="relative bg-white w-full h-[500] shadow-xl ">
               <img
@@ -60,13 +56,6 @@ const ProductList = async ({
                 </button>
               </div>
             </div>
-            {/* {addBag === index && (
-              <div className="flex items-center justify-center">
-                <button className="bg-[#ae7f5890] w-full h-10">
-                  <span className="p-2 text-white">add bag</span>
-                </button>
-              </div>
-            )} */}
           </Link>
         ))}
       </div>

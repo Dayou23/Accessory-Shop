@@ -15,10 +15,9 @@ const VideoComp = () => {
           About Us
         </h2>
         <p className="text-lg text-white">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt,
-          dicta omnis. Sint, voluptates dicta accusamus error inventore
-          cupiditate nesciunt ea consequuntur similique, deserunt omnis
-          perspiciatis doloremque adipisci eligendi, quibusdam culpa.
+          explore adult railroad lucky concerned higher happy excellent refer
+          highest dropped sell feet ancient even avoid experiment fifth duck
+          they means outer accurate position
         </p>
         {/* <button className="rounded-full  bg-primary text-brand-800 p-2 px-4 shadow inline-block font-bold">
           Play The Video

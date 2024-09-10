@@ -1,17 +1,17 @@
 import SearchBar from "./SearchBar";
-
 const Newsletter = () => {
   return (
-    <section className="py-12 lg:py-16 bg-light-bg px-5 min-h-[360px] flex items-center">
+    <section className="py-12 lg:py-16 bg-light-bg px-5 min-h-[360px] flex items-center flex-col">
       <div className="w-full max-w-lg mx-auto space-y-5 flex flex-col text-center justify-center">
         <h2 className="text-secondary font-black text-2xl">
-          Sign Up To Our Newsletter
+          Join Our Newsletter Subscription
         </h2>
         <p className="text-secondary">
-          Want to keep up to date with our brand new launches, wedding blogs and
-          offers? Sign up with your email here to keep in touch!
+          Would you want to be informed about our latest releases, wedding
+          blogging, and promotions? Enter your email address to register and
+          stay in contact!
         </p>
-        <div className="p-5  ">
+        <div>
           <SearchBar typeBar="subscribe" />
         </div>
       </div>

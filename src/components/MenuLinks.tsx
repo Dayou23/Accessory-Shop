@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import Arrow_up_menu from "./Arrow_up_menu";
-import Arrow_down_menu from "./arrow_down_menu";
+import Arrow_down_menu from "./Arrow_down_menu";
 import NavImages from "./NavImages";
 import { Bags, Collection, NewIn } from "@/lib/data";
 import SearchBar from "./SearchBar";
@@ -22,7 +22,7 @@ const MenuLinks = () => {
       <div className="flex flex-col  justify-center gap-4 md:flex-row">
         <div className="md:relative">
           <div className="flex items-center  w-fit border-x-0 border-t-0 border-b-2 border-b-transparent  hover:border-b-primary ">
-            <Link href="/collections" className="cursor-pointer font-semibold">
+            <Link href="#" className="cursor-pointer font-semibold">
               Collections
             </Link>
             <button
@@ -41,7 +41,7 @@ const MenuLinks = () => {
         </div>
         <div className="md:relative">
           <div className="flex items-center  w-fit border-0  hover:border-b-2  hover:border-b-primary">
-            <Link href="/collections" className="cursor-pointer font-semibold">
+            <Link href="#" className="cursor-pointer font-semibold">
               New In
             </Link>
             <button
@@ -60,7 +60,7 @@ const MenuLinks = () => {
         </div>
         <div className="md:relative">
           <div className="flex items-center  w-fit border-0  hover:border-b-2  hover:border-b-primary">
-            <Link href="/collections" className="cursor-pointer font-semibold">
+            <Link href="#" className="cursor-pointer font-semibold">
               Bags{" "}
             </Link>
             <button

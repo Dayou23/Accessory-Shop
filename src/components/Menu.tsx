@@ -42,11 +42,11 @@ const Menu = () => {
         </h2>
         <MenuLinks />
         <div className="flex flex-col  justify-center gap-2 pt-6">
-          {headerLinks.map((item) => (
+          {headerLinks.map((item, index) => (
             <Link
               href={item.route}
               className="cursor-pointer flex items-center text-sm font-light font-serif hover:text-primary"
-              key={item.route}
+              key={index}
             >
               {item.label}
             </Link>
