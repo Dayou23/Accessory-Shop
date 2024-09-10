@@ -5,7 +5,7 @@ const ListPage = async ({ searchParams }: { searchParams: any }) => {
     <div>
       <div className="flex  flex-col items-center justify-center pt-[10vh]">
         <h2 className="text-3xl font-serif font-bold ">
-          Searched for "{searchParams.name}"
+          Searched for {searchParams.name}
         </h2>
         <p className="p-2">0 Products Found</p>
         <div className="p-2 md:w-[50%]">
