@@ -2,11 +2,10 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import Arrow_up_menu from "./Arrow_up_menu";
-import Arrow_down_menu from "./Arrow_down_menu";
 import NavImages from "./NavImages";
 import { Bags, Collection, NewIn } from "@/lib/data";
 import SearchBar from "./SearchBar";
+import Image from "next/image";
 
 const MenuLinks = () => {
   const [showCollections, setShowCollections] = useState(false);
@@ -14,6 +13,30 @@ const MenuLinks = () => {
   const [showBags, setShowBags] = useState(false);
   const [showBridal, setShowBridal] = useState(false);
   const [showEverythingElse, setShowEverythingElse] = useState(false);
+
+  const Arrow_down_menu = () => {
+    return (
+      <Image
+        src="/arrow_down_menu.png"
+        alt=""
+        width={24}
+        height={24}
+        className="cursor-pointer p-1 "
+      />
+    );
+  };
+  const Arrow_up_menu = () => {
+    return (
+      <Image
+        src="/arrow_up_menu.png"
+        alt=""
+        width={24}
+        height={24}
+        className="cursor-pointer p-1 "
+      />
+    );
+  };
+
   return (
     <div className="flex flex-col  justify-center gap-4 pt-6 md:flex-row md:pt-0 z-40">
       <div className="md:hidden">

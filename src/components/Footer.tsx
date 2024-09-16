@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import SearchBar from "./SearchBar";
 import Link from "next/link";
+import { FooterCollections, headerLinks } from "@/constants";
 
 const Footer = () => {
   return (
@@ -70,28 +71,11 @@ const Footer = () => {
               Useful Links
             </h4>
             <ul className="text-sm space-y-2 text-slate-600">
-              <li className="cursor-pointer">
-                <Link href="#"> About us</Link>
-              </li>
-              <li className="cursor-pointer">
-                <Link href="#">Blog</Link>{" "}
-              </li>
-              <li className="cursor-pointer">
-                <Link href="#">Contact us</Link>{" "}
-              </li>
-              <li className="cursor-pointer">
-                <Link href="#" />
-                Refund Policy
-              </li>
-              <li className="cursor-pointer">
-                <Link href="#">Terms of Service</Link>{" "}
-              </li>
-              <li className="cursor-pointer">
-                <Link href="#">Privacy Policy</Link>{" "}
-              </li>
-              <li className="cursor-pointer">
-                <Link href="#">Delivery Times</Link>{" "}
-              </li>
+              {headerLinks.map((item, index) => (
+                <li className="cursor-pointer" key={index}>
+                  <Link href="#"> {item.label}</Link>
+                </li>
+              ))}
             </ul>
           </div>
           <div className="space-y-5">
@@ -99,27 +83,11 @@ const Footer = () => {
               Collections
             </h4>
             <ul className="text-sm space-y-2 text-slate-600">
-              <li className="cursor-pointer">
-                <Link href="#">Collection</Link>
-              </li>
-              <li className="cursor-pointer">
-                <Link href="#">Bracelets</Link>{" "}
-              </li>
-              <li className="cursor-pointer">
-                <Link href="#">Earrings</Link>{" "}
-              </li>
-              <li className="cursor-pointer">
-                <Link href="#">Necklaces</Link>{" "}
-              </li>
-              <li className="cursor-pointer">
-                <Link href="#">Bags</Link>{" "}
-              </li>
-              <li className="cursor-pointer">
-                <Link href="#">Greeting Cards</Link>
-              </li>
-              <li className="cursor-pointer">
-                <Link href="#">Sunglasses</Link>{" "}
-              </li>
+              {FooterCollections.map((item, index) => (
+                <li className="cursor-pointer" key={index}>
+                  <Link href="#"> {item.label}</Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

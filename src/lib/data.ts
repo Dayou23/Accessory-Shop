@@ -2,12 +2,12 @@ export const Collection = [
   {
     image:
       "https://images.pexels.com/photos/1413420/pexels-photo-1413420.jpeg?auto=compress&cs=tinysrgb&w=800",
-    title: "Le Grá Collection",
+    title: "orange excitement",
   },
   {
     image:
       "https://images.pexels.com/photos/949590/pexels-photo-949590.jpeg?auto=compress&cs=tinysrgb&w=800",
-    title: "Le Grá Collection",
+    title: "carefully husband",
   },
 ];
 export const NewIn = [
@@ -15,25 +15,25 @@ export const NewIn = [
     id: 1,
     image:
       "https://images.pexels.com/photos/965117/pexels-photo-965117.jpeg?auto=compress&cs=tinysrgb&w=800",
-    title: "Sundaze Collection",
+    title: "popular Collection",
   },
   {
     id: 2,
     image:
       "https://images.pexels.com/photos/753969/pexels-photo-753969.jpeg?auto=compress&cs=tinysrgb&w=800",
-    title: "Le Grá Collection",
+    title: "atmosphere",
   },
   {
     id: 3,
     image:
       "https://images.pexels.com/photos/1212048/pexels-photo-1212048.jpeg?auto=compress&cs=tinysrgb&w=800",
-    title: "Sunglasses",
+    title: "west",
   },
   {
     id: 4,
     image:
       "https://images.pexels.com/photos/989967/pexels-photo-989967.jpeg?auto=compress&cs=tinysrgb&w=800",
-    title: "Greeting Cards",
+    title: "broken Cards",
   },
 ];
 export const Bags = [
@@ -45,12 +45,12 @@ export const Bags = [
   {
     image:
       "https://images.pexels.com/photos/904350/pexels-photo-904350.jpeg?auto=compress&cs=tinysrgb&w=800",
-    title: "Clutch Bags",
+    title: "stand Bags",
   },
   {
     image:
       "https://images.pexels.com/photos/1591154/pexels-photo-1591154.jpeg?auto=compress&cs=tinysrgb&w=800",
-    title: "The Margot",
+    title: "hope sink",
   },
 ];
 export const Products = [

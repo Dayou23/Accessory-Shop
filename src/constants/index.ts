@@ -28,3 +28,34 @@ export const headerLinks = [
     route: "#",
   },
 ];
+
+export const FooterCollections = [
+  {
+    label: "Collection",
+    route: "#",
+  },
+  {
+    label: "Bracelets",
+    route: "#",
+  },
+  {
+    label: "Earrings",
+    route: "#",
+  },
+  {
+    label: "Bags",
+    route: "#",
+  },
+  {
+    label: "Necklaces",
+    route: "#",
+  },
+  {
+    label: "Greeting Cards",
+    route: "#",
+  },
+  {
+    label: "Sunglasses",
+    route: "#",
+  },
+];
