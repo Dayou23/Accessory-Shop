@@ -28,13 +28,11 @@ const ProductList = async ({
             className="flex-shrink-0 w-[95%] sm:w-[45%] xl:w-[22%]"
             key={product.image}
           >
-            <div className="relative bg-white w-full h-[500] shadow-xl ">
-              <Image
+            <div className="relative bg-white w-full shadow-xl h-[500]">
+              <img
                 src={product.image}
                 alt={product.title}
-                width={300}
-                height={500}
-                className="w-full h-[75%] object-cover rounded-md p-2"
+                className="object-cover w-full h-[75%] rounded-md p-2"
               />
 
               <div className="relative flex items-center justify-center flex-col">
