@@ -29,9 +29,11 @@ const ProductList = async ({
             key={product.image}
           >
             <div className="relative bg-white w-full h-[500] shadow-xl ">
-              <img
+              <Image
                 src={product.image}
                 alt={product.title}
+                width={300}
+                height={500}
                 className="w-full h-[75%] object-cover rounded-md p-2"
               />
 
