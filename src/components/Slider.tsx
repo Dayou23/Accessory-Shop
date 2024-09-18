@@ -32,12 +32,13 @@ const Slider = () => {
             <div className="hidden md:flex md:h-1/2 xl:w-1/2 xl:h-full  items-center justify-center ">
               <div className="max-w-3xl md:max-w-2xl xl:max-w-xl relative z-40 w-full 2xl:mx-auto">
                 <div className="font-display text-5xl md:text-7xl xl:text-8xl italic font-bold tracking-tight text-slate-900">
-                  <span className="hidden md:inline">Sundaze Collection</span>
+                  <span className="hidden md:inline">Autumn Collection</span>
                 </div>
                 <div className="max-w-lg mt-4 md:mt-8 hidden md:block">
                   <p className="text-lg md:text-2xl text-brand-800 md:text-slate-500">
-                    Each piece is 18ct gold plated and perfect for those beach
-                    parties, sunset dinners or anything in between.
+                    silly respect slept early article remove related sell
+                    property war verb wing of silent solid statement smooth yet
+                    modern largest difficulty dirt flag farm.
                   </p>
                 </div>
                 <div className="mt-4">
@@ -61,7 +62,7 @@ const Slider = () => {
               />
               <div className="md:hidden max-w-3xl z-40 w-full flex items-center justify-center flex-col">
                 <div className="font-display text-5xl  italic font-bold tracking-tight text-slate-900">
-                  <span> Sun, Sea, and Sparkle...</span>
+                  <span>Autumn Collection</span>
                 </div>
                 <div className="mt-4">
                   <Link
